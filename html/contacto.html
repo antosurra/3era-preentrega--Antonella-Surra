@@ -44,36 +44,41 @@
 
   </nav>
 
-<header>
-</header>
-  <main>
-    <h2>CONTACTO</h2>
+  <header>
+  </header>
+
+  <main class="contactanos">
+    <h2 class="titulocontacto">CONTACTO</h2>
     <section>
       <main class="botoncontacto"><input type="button" value="LLAMANOS">
         <input type="button" value="CHATEA">
       </main>
+
       <h3>ESCRIBINOS</h3>
-      <form action="asunto">ASUNTO*</form>
-      <input type="text" name="asunto" id="ASUNTO" placeholder="">
 
-      <form action="nombre">NOMBRE*</form>
-      <input type="text" name="NOMBRE" id="NOMBRE" placeholder="">
+      <div class="completardatos">
+        <form action="asunto">ASUNTO*</form>
+        <input class="completar" type="text" name="asunto" id="ASUNTO" placeholder="">
 
-      <form action="apellido">APELLIDO*</form>
-      <input type="text" name="APELLIDO" id="APELLIDO" placeholder="">
+        <form action="nombre">NOMBRE*</form>
+        <input type="text" name="NOMBRE" id="NOMBRE" placeholder="">
 
-      <form action="email">EMAIL*</form>
-      <input type="text" name="EMAIL" id="EMAIL" placeholder="">
+        <form action="apellido">APELLIDO*</form>
+        <input class="completar" type="text" name="APELLIDO" id="APELLIDO" placeholder="">
 
-      <form action="telefono">TELEFONO</form>
-      <input type="text" name="TELEFONO" id="TELEFONO" placeholder="">
+        <form action="email">EMAIL*</form>
+        <input class="completar" type="text" name="EMAIL" id="EMAIL" placeholder="">
 
-      <form action="ciudad">CIUDAD</form>
-      <input type="text" name="CIUDAD" id="CIUDAD" placeholder="">
+        <form action="telefono">TELEFONO</form>
+        <input class="completar" type="text" name="TELEFONO" id="TELEFONO" placeholder="">
 
-      <ul>
-        <textarea  class="textarea"  name="textarea" rows="5" cols="30">COMENTARIOS</textarea>
-      </ul>
+        <form action="ciudad">CIUDAD</form>
+        <input class="completar" type="text" name="CIUDAD" id="CIUDAD" placeholder="">
+      
+        <form action="comentarios">COMENTARIOS</form>
+        <textarea class="textarea" name="textarea" rows="5" cols="30"></textarea>
+      </div>
+    
       </form>
     </section>
   </main>
@@ -96,11 +101,6 @@
         <a href="usuario.html">INGRESAR</a>
       </li>
     </ul>
-    
-
-    <h4>
-      <strong>SEGUINOS</strong>
-    </h4>
   </footer>
 
 
