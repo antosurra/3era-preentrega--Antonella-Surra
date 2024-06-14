@@ -6,11 +6,42 @@
 @import "_quienessomos.scss";
 @import "_ingresar.scss";
 
+
+/*diseño responsive*/
+@media only screen and (max-width: 600px) {
+    /*vista mobile*/
+
+    h1{
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    .encabezado{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .buscar{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contenedorcards{
+        .card{
+            flex: 1 1 fr;
+            display: flex;
+        }
+    }
+}
+
+
 body {
     header {
         margin-bottom: 25px;
-        img{
-            display:block;
+
+        img {
+            display: block;
         }
 
         nav {
@@ -60,7 +91,7 @@ body {
             }
         }
 
-        
+
     }
 }
 
